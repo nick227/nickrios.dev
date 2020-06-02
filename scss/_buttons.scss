@@ -1,0 +1,21 @@
+button{
+	background:$black;
+	color:$white;
+	text-align:center;
+	padding:21px 42px;
+	border:0;
+	margin:2px;
+	cursor: pointer;
+	transition: all 500ms;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	outline: 0;
+}
+button:hover{
+	background:$green;
+	color:$black;
+}
+button:active{
+	background:$gray;
+}

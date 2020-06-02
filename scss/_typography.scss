@@ -1,0 +1,68 @@
+body{
+	color:#202020;
+	font-family:'Montserrat';
+	font-size:17px;
+}
+a{
+	color:$blue;
+}
+a:hover{
+	color:$purple;
+}
+h2{
+	font-weight:800;
+	font-size: 3.5em;
+	line-height: 60px;
+	padding: 3px 0 6px 0;
+	 
+}
+h3{
+	font-size: 1.5em;
+	margin:0;
+}
+h4{
+	font-size: 1em;
+	text-decoration: underline;
+}
+h5{
+	margin:0;
+
+}
+p{
+	font-size: 1.5em;
+	line-height: 1.55em;
+	margin:2px 0;
+}
+p.small{
+	font-size:1em;
+	line-height: 1.5em;
+}
+.fancy{ 
+	font-family:'Indie Flower';
+}
+.block{ 
+	font-family:'Impact';
+}
+.white{
+	color:$white;
+}
+.black{
+	color:$black;
+}
+.masthead{
+    font-size: 2em;
+    font-family: Caveat;
+    font-weight: 800;
+}
+button{
+	font-family: 'Impact';
+	font-size: 1.5em;
+}
+input[type=email], input[type=text], textarea{
+	font-size: 1.3em;
+
+}
+input[type="checkbox"] + label {
+  font-size: 1.25em;
+  font-weight: 800;
+}
